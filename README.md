@@ -12,24 +12,21 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="assets/lite-xl.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+1. Clone this repository
+2. open the cloned directory
+3. copy the `colors/catppuccin.lua` to `~/.config/lite-xl/colors/`
+4. in `~/.config/init.lua` add this line
+  + ```lua core.reload_module("colors.catppuccin")```
 
-## 🙋 FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**
-  A: Run `:help theme`
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Saimoomedits](https://github.com/saimoomedits)
 
 &nbsp;
 
