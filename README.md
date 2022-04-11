@@ -20,7 +20,7 @@
 1. Clone this repository
 2. open the cloned directory
 3. copy the `colors/catppuccin.lua` to `~/.config/lite-xl/colors/`
-4. in `~/.config/init.lua` add this line
+4. in `~/.config/lite-xl/init.lua` add this line
   + ```lua core.reload_module("colors.catppuccin")```
 
 
